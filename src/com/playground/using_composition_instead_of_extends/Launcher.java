@@ -3,9 +3,9 @@ package com.playground.using_composition_instead_of_extends;
 import java.util.HashSet;
 import java.util.List;
 
-import com.playground.Launcher;
+import com.playground.LauncherBase;
 
-public class UsingCompositionInsteadOfExtends implements Launcher {
+public class Launcher implements LauncherBase {
     @Override
     public void execute() {
         /*

@@ -2,9 +2,9 @@ package com.playground.equals_and_hashcode;
 
 import java.util.List;
 
-import com.playground.Launcher;
+import com.playground.LauncherBase;
 
-public class EqualsTestLauncher implements Launcher {
+public class Launcher implements LauncherBase {
     @Override
     public void execute() {
         TestModel test1 = new TestModel("test1");

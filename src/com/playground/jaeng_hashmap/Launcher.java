@@ -1,8 +1,8 @@
 package com.playground.jaeng_hashmap;
 
-import com.playground.Launcher;
+import com.playground.LauncherBase;
 
-public class JaengHashMapLauncher implements Launcher {
+public class Launcher implements LauncherBase {
     @Override
     public void execute() {
         JaengHashMap<String, Integer> hashMap = new JaengHashMap<>();

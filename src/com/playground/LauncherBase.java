@@ -1,6 +1,6 @@
 package com.playground;
 
-public interface Launcher {
+public interface LauncherBase {
     default void init() {
     }
 
